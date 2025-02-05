@@ -1,18 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-//Bootstrap
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
+import "bootstrap/dist/js/bootstrap.bundle.min";  
 
-// index.css'
-import '../styles/index.css'
+// Components
+import Home from "./Home.jsx";  
+import Navbar from "./components/Navbar.jsx";
+import Jumbotron from "./components/Jumbotron.jsx";
+import Card from "./components/Card.jsx";
+import Footer from "./components/Footer.jsx";
 
-// components
-import Home from './components/Home';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+    <React.StrictMode>
+        <Home />
+    </React.StrictMode>
+);

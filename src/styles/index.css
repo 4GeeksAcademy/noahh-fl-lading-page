@@ -1,11 +1,21 @@
-/* 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.card {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
 
-*/
+.card:hover {
+    transform: scale(1.03);
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 40px;
+}
